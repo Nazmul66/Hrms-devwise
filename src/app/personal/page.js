@@ -50,19 +50,19 @@ useEffect(() =>{
 },[]);
 
 
-useEffect(() =>{
-    const list_element = document.querySelectorAll(".list_element");
+// useEffect(() =>{
+//     const list_element = document.querySelectorAll(".list_element");
 
-    for(let i = 0; i < list_element.length; i++){
-        list_element[i].addEventListener("mouseenter", (e) => {
-            list_element[i].classList.add("active");
-         })
+//     for(let i = 0; i < list_element.length; i++){
+//         list_element[i].addEventListener("mouseenter", (e) => {
+//             list_element[i].classList.add("active");
+//          })
 
-         list_element[i].addEventListener("mouseleave", (e) => {
-            list_element[i].classList.remove("active");
-         })
-      }
-},[]);
+//          list_element[i].addEventListener("mouseleave", (e) => {
+//             list_element[i].classList.remove("active");
+//          })
+//       }
+// },[]);
 
 
 useEffect(() =>{
